@@ -1,0 +1,48 @@
+.a{
+    border:  solid black;
+    background-color:  white;
+    width: 50%;
+    margin-bottom: 8px;
+    padding-left: 3px;
+}
+.b{
+    border : dashed;
+    background-color:  white;
+    width: 50%;
+    margin-bottom: 8px;
+    padding-left: 3px;
+}
+.C {
+    border: solid black;
+    background-color:  white;
+    width: 50%;
+    margin-bottom: 8px;
+    padding-left:3px;
+    color: blue;
+   
+}
+.D{
+    border: dashed red ;
+    background: white;
+    padding-left:3px;
+}
+
+.as{
+    background-color: brown;
+}
+.A{
+    text-decoration-line: underline;
+}
+.s{
+    color: orange;
+}
+.m{
+    color:blue ;
+}
+.l {
+    color: red;
+}
+.r { color: brown;
+    background-color: yellow;
+
+}
