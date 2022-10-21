@@ -1,0 +1,50 @@
+.orange{
+    background-color: orange;
+}
+.yallow{
+    background-color: rgb(221, 221, 114);
+}
+.first{
+    border: 2px solid ;
+    padding: 10px;
+    width: 800px;
+    background-color: white
+}
+.third{
+    border: dashed ;
+    padding: 10px;
+    width: 800px;
+    background-color: white;
+}
+.second{
+    border: dashed red ;
+    padding: 10px;
+    width: 750px;
+
+}
+.three{
+    border:  2px solid ;
+    padding: 10px;
+    width: 800px;
+    background-color: white;
+    color: blueviolet;
+}
+fif{
+    background-color: rgb(232, 213, 190);
+    margin-left: 15px;
+}
+.font{
+    color: rgb(115, 218, 241) ;
+    font-family: 'Fasthand', cursive; 
+}
+
+
+p{
+    
+    text-align: center;
+    width: 800px;
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: brown;
+    color: rgb(199, 84, 168);
+}
