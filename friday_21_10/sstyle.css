@@ -40,11 +40,8 @@ fif{
 
 
 p{
-    
+    background-image: url(../thursday_20_10/download.jpg);
     text-align: center;
     width: 800px;
-    text-decoration-line: overline;
-    text-decoration-style: dotted;
-    text-decoration-color: brown;
-    color: rgb(199, 84, 168);
+    color: rgb(244, 145, 217);
 }
