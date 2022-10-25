@@ -1,0 +1,82 @@
+.font{
+    font-family: 'Fasthand', cursive;
+}
+body{
+    margin:0px 20% 100% 20%;
+}
+.mather{  
+    display: flex;
+    justify-content: space-between;  
+    margin-right: 10px;
+}
+.first{  
+    display: flex;
+    margin-top: 50px;
+  
+
+} 
+
+.igon{   
+display: flex;
+margin-top: 6%;
+
+}
+
+.head{
+    margin-left: 10px;
+    
+}
+.sociall{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-top: 5%; 
+    margin-right: 10% ;
+}
+.Social{
+    margin-right: 10px;
+    padding: .5px;
+}
+hr{
+    width: 100%;
+    background-image: url( #888888);
+  
+}
+.chocolate{
+    
+    border-radius: 6px;
+    height:100% ;
+    width: 100%;
+}
+ form{
+  border: 2px solid  rgb(246, 229, 199) ;
+  width: 500px;
+  display: grid;
+ 
+    
+ }
+
+
+ .parent{
+    background-image: url(ddd.png);
+    margin-left: 25%;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+    box-shadow:5px 10px rgb(195, 190, 190);  
+ }
+.manal{
+    border-radius: 20px;
+}
+.for{
+    margin-left:  50%;
+    background-color: rgb(139, 33, 33);
+
+}
+.forr{
+    margin-left:  50% ;
+
+}
+.forrr{ margin-left:  40% ;
+
+}
