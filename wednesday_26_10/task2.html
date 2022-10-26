@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div and button </title>
+    <style>
+    body{
+        background-color: rgb(244, 237, 237);
+        margin: 5% 25% 0% 25%
+    }
+    .oo{
+        display: grid;
+        grid-template-rows: repeat(3.1fr);
+        grid-gap: 10%;
+        grid-template-areas:
+        "ww ww ww"
+        "qq qq qq"
+        "tt tt tt ";
+        background-color: rgb(216, 231, 236);
+        text-align: center;
+        border: 2px solid white;
+
+
+    }
+    .ww{
+        background-color: rgb(160, 206, 221);
+        grid-area: ww;
+    }
+    .qq{
+        background-color: rgb(160, 206, 221);
+        grid-area: qq;
+    }
+    .tt{
+        background-color: rgb(160, 206, 221);
+        grid-area: tt;
+    }
+    </style>
+        
+<body>
+    <div class="oo">
+        <div class="ww">Im a card</div>
+        <div class="qq">I have content insid me Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste quod voluptas quia.></div>
+        <div class="tt"> <p>and a</p> <label ></label>  <input type="button" value="BIG BUTTON"> </div>
+    </div>
+    
+</body>
+</html>
