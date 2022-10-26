@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .main{
+            display: flex  ;
+            color: aliceblue;
+            border: 2px;  
+            font-size: large; 
+        }
+        .main > div {
+            flex: 1;
+            height: 700px;
+        } 
+        .orange{
+            background-color: orangered;
+            padding: 20%;
+            font-size: 100px;
+        }
+        .blue{
+            background-color: blue;
+            padding: 20%;
+            font-size: 100px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="orange">first part</div>
+        <div class="blue"> second part</div>
+    </div>
+    
+</body>
+</html>

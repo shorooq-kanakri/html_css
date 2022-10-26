@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: white;
+       
+    }
+    @media screen and (min-width:580px){
+        body{background-color: blueviolet;}
+
+    }
+    @media screen and (max-width:600px){
+    .column{ flex:100% ;
+    max-width: 100%;}
+    }
+        
+    .container{
+      display:flex;
+       flex-wrap: wrap;
+      padding:  4px;
+      
+    }
+    .box{
+        border: 6px solid black;
+        width: 400px;
+
+    }
+    </style>
+        
+</head>
+<body>
+    <h1>Media Query Demo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptatem magni officiis libero molestias, ut sapiente, beatae hic natus quaerat officia perferendis quisquam provident exercitationem dolor neque aut voluptatum? Aliquid placeat officia nemo ut assumenda aspernatur in iusto vitae eaque, provident sapiente perferendis illo accusantium sed explicabo libero optio esse harum exercitationem animi, incidunt id dolores repellat ullam? Nobis fugit incidunt distinctio commodi pariatur. Cupiditate, corrupti fuga. Laudantium ab quo, quis fugiat magnam rem laborum similique! Aliquam consequuntur, mollitia fuga sunt reprehenderit quibusdam corporis et nam natus quas tempore ipsa nihil laborum esse maiores eveniet quaerat obcaecati odit. Hic, itaque?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iusto, excepturi natus fugiat blanditiis facere pariatur veritatis rerum doloribus eius explicabo nihil numquam, in asperiores minus accusamus corporis libero provident.</p>
+    <h2>Box Columns</h2>
+    <div class="container">
+        <div clas="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBzw7WZJ_0Ckn1qcwn8Pk-Ci3OCg6-4DFqmQ&usqp=CAU" alt="cat"></div>
+        <div clas="box"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkQfdnlBhjFO1XP45-2c8eMLpGz9ZL2tV5LQ&usqp=CAU" alt="cat"></div>
+        <div clas="box"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkQfdnlBhjFO1XP45-2c8eMLpGz9ZL2tV5LQ&usqp=CAU" alt="cat"></div>
+        <div clas="box"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkQfdnlBhjFO1XP45-2c8eMLpGz9ZL2tV5LQ&usqp=CAU" alt="cat"></div>
+        <div clas="box"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkQfdnlBhjFO1XP45-2c8eMLpGz9ZL2tV5LQ&usqp=CAU" alt="cat"></div>
+    </div>
+</body>
+</html>

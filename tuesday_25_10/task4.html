@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-rows: repeat(3.1fr);
+            grid-gap: 10px;
+            grid-template-areas: 
+            "as as as as"
+            "or or or gr"
+            "bl bl bl bl";
+            border: 1px solid white;
+        }
+        .aa{
+            /* background-color: black; */
+            background-color: black;
+            height: 50px;
+            grid-area: as ;
+
+        }
+        .bb{ 
+           background-color: orange;
+           height: 200px;
+           grid-area: or;
+
+        }
+        .xx{
+            background-color: green;
+            height: 200px;
+            grid-area: gr ;
+
+        }
+        .vv{
+            background-color: blue ;
+            height: 100px;
+            grid-area:bl ;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="aa"></div>
+    <div class="bb"></div>
+    <div class="xx"></div>
+    <div class="vv"></div>
+</div>
+</body>
+</html>

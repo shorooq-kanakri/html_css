@@ -12,9 +12,8 @@ body{
 .first{  
     display: flex;
     margin-top: 50px;
-  
-
 } 
+ 
 
 .igon{   
 display: flex;
@@ -52,7 +51,7 @@ hr{
   border: 2px solid  rgb(246, 229, 199) ;
   width: 500px;
   display: grid;
- 
+
     
  }
 
@@ -77,6 +76,6 @@ hr{
     margin-left:  50% ;
 
 }
-.forrr{ margin-left:  40% ;
+.forrr{ margin-left: 40% ;
 
 }
