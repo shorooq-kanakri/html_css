@@ -1,0 +1,229 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.mt-3{
+    padding-left: 10%;
+}
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fcfffd00 !important;
+    --bs-btn-border-color: #e8eeec;
+
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #f2fef8;
+
+    
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ecf0ee;
+    --bs-btn-disabled-border-color: #c0c0c0;
+}
+.navbar-toggler-icon{
+    padding-right: 10%;
+    color: #fff;
+}    
+.navbar-toggler{
+    color: #fff;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(23, 76, 190) ;
+}
+
+nav{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    background-color:#fba61b ;
+    border: #c0c0c0;
+    
+}
+
+.blue1{
+    background-color:rgb(23, 76, 190) ;
+    text-align: center;
+    padding-top: 90px;
+
+}
+.blue1 h3 {
+ color: #e8eeec;
+}
+.blue1 h1{
+    color: #fba61b;
+    font-size: 100px;
+}
+
+.blue1 p{
+    color:#f2fef8;
+    font-size: 20px;
+}
+.blue1 p a{
+    color:#f2fef8;
+    font-size: 20px;
+}
+.img{
+    /* border: 2px solid #fba61b ;
+    border-radius: 25%; */   
+}
+
+.Resumee{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 80%;
+    padding-left: 20%;
+}
+
+.Resume a{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+.Resume a{
+ text-decoration: none;
+ color: blue;
+ font-size: 20px;
+ text-align: center;
+ padding: 50px;
+}
+
+.My-Skills a{
+    display: inline-block ;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.My-Skills a{
+text-decoration: none;
+color: orange;
+font-size: 20px;
+text-align: center;
+padding: 50px;
+}
+
+.Project a{
+    display: inline-block ;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.Project a{
+text-decoration: none;
+color: blue;
+font-size: 20px;
+text-align: center;
+padding: 50px;
+}
+.Contact a{
+    display: inline-block ;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.Contact a{
+text-decoration: none;
+color: orange;
+font-size: 20px;
+text-align: center;
+padding: 50px;
+}
+.orange{
+    background-color: #fba61b ;
+    height: 300px;
+}
+.card{
+    width: 400px;
+    background-color: white;
+    margin-top: -200px;
+    height: 450px;
+    z-index: 5;
+    border-radius: 4%;
+    padding: 2%;
+}
+.card p{
+    color: black;
+}
+.card h2{
+    color: #fba61b;
+    font-size: 70px;
+}
+.card h5{
+    color: blue;
+    font-size:40px ;
+}
+.bot{
+    width: 100px;
+    background-color: #FCA61B;
+    color: white;
+    border-radius: 9px;
+    padding: 20px;
+    border: none;
+    margin: 10% 0 0 5%;
+}
+.card-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 75%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.blue2{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
+.blue2 h2{
+    color: #FCA61B;
+}
+.blue2-con{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+.blue2-img{
+    width: 300px;
+    height: 300px;
+}
+
+.blue2-cont p{
+    width: 200px;
+    padding: 10px;
+    margin-left: 10px;   
+}
+.blue2-conttt{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+}
+.blue-cott {
+    font-size: 60px;
+    background-color: white;
+    color: #fba61b;
+    padding: 30px;
+    border-radius: 15px;
+}
+.blue-cott h3{ 
+    color: black;
+}
+.orange1{
+    background-color: #fba61b;
+}
