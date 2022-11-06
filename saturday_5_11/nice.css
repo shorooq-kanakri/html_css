@@ -226,4 +226,73 @@ padding: 50px;
 }
 .orange1{
     background-color: #fba61b;
+    padding-top: 30px;
+}
+.orange1-con{
+    color: #ecf0ee;
+    text-align: center;
+}
+.orange1 h1{
+   font-size: 40px;
+   color: #e8eeec;
+}
+.orange11{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.or{
+    color: #f2fef8;
+}
+.orange666{
+    position: relative;
+    background-color: rgb(23, 76, 190);
+    text-align: center;
+    height: 1000px;
+}
+.orange66{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    background-color: rgb(255, 166, 0);
+    border-radius: 15px;
+    z-index: 1;
+    height: 800px;
+    width: 300px;
+}
+.orange666-img img{
+    width: 250px;
+    height: 250px;
+    padding-bottom: 10px;
+
+}
+.orange666-img{
+    position: absolute;
+    z-index: 2;
+    padding-left: 500px;
+    padding-top: 150px;
+}
+.orange666-p{
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    position: relative;
+    left: 16%;
+    top: 45%;
+    border-radius: 15px;
+    text-align: start;
+    z-index: 3;
+    width: 350px;
+    height: 390px;
+    padding: 30px 30px;
+
+}
+.orange666-p p{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.orange666-p h3{
+    color: black;  
 }
